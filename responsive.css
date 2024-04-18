@@ -1,0 +1,201 @@
+.checkbtn {
+    color: #ffffff;
+    font-size: 40px;
+    margin-right: 20px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+
+@media (max-width:576px) {
+
+    .navContainer{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .logo{
+        width:80%;
+        /* background-color:red; */
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .navBar{
+        width: 20%;
+        background-color: #fff;
+    }
+    .navLinks {
+        background-color:#eae6f5;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        color:green;
+        flex-direction: column;
+        display: none;
+        height: 280px;
+        width: 100%;
+    }
+
+    .navLinks li{
+        background-color:#eae6f5;
+        padding:10px 0;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:yellow;
+    }
+    .navLinks li a{
+        color:green;
+    }
+
+    .navLinks li:hover{
+        background-color:white;
+    }
+
+    .navLinks li:hover a{
+        color:green;
+    }
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navLinks {
+        display: flex;
+    }
+    .jumbotron{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .jumbotron h1,.jumbotron p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: large;
+    }
+    .gardenContainer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .garden{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        flex-direction: column;
+    }
+    .tips,.happy,.planting{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .tipsText h4,.happyText h4,.plantText h4{
+        font-size: smaller;
+    }
+    .tipsText p,.happyText p,.plantText p{
+        font-size: smaller;
+    }
+    .tipsImage,.happyImage,.plantImage{
+        margin: 10px;
+        padding: 0;
+    }
+    .big h2{
+        margin-top: 40px;
+        padding: 0;
+    }
+    .gridContainer{
+        width: 100%;
+        padding:0 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .grid{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .gridImage{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .gridBody{
+        width: 100%;
+        padding: 0;
+        margin-top: -5px;
+    }
+    .gridBody h3,.gridBody p{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .weekContainer{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .week{
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .weekImage{
+        margin:0 20px;
+    }
+    .weekText{
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+    .weekText h2{
+        text-align: center;
+    }
+    .weekText p{
+        font-size: large;
+    }
+    .cardContainer{
+        padding: 50px 0;
+        margin:  0;
+    }
+    .card{
+        padding: 10px;
+        gap:0;
+        margin: 0 auto;
+    }
+    footer{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    footer h3{
+        text-align: center;
+        padding:0 30px;
+    }
+
+
+}
